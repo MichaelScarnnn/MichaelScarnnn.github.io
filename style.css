@@ -1,0 +1,110 @@
+/************************************************/
+/* common HTML elements */
+body {
+    font-family: 'Teko', sans-serif;
+    font-size: 200%;
+    color: rgb(42, 46, 46);
+}
+
+h1 {
+    font-size: 200%;
+    color: azure;
+}
+
+p {
+    text-align: justify;
+    text-indent: 4%;
+    font-family: 'Teko', sans-serif;
+}
+/************************************************/
+/* <body> definitions */
+body#main {
+    background-color: darkseagreen;
+    font-family: 'Teko', sans-serif;
+    margin: auto;
+    max-width: 100%;
+}
+body#about {
+    background-color: #7a8fac;
+    font-family: 'Teko', sans-serif;
+    margin: auto;
+    width: 100%;
+}
+body#contact {
+    background-color: #dfbdae;
+    font-family: 'Teko', sans-serif;
+    margin: auto;
+    width: 100%;
+}
+/************************************************/
+/* <div> definitions */
+div#header {
+    background-color: rgb(5, 5, 5);
+    padding: 1%;
+    text-align:center;
+    margin-bottom: 2%;
+    margin-left: 0.05%;
+    margin-right: 0.05%;
+    margin-top: 0%;
+    position: relative;
+    bottom: 1%; 
+    border-radius: 0% 0% 100% 100%;
+}
+
+div#menu {
+    text-align: center;
+}
+
+div#main {
+    /*border: solid 2px blue;*/
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%;
+    min-height: 25%;
+}
+
+div#footer {
+    /*border: 2px solid red;*/
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    min-height: 25%;
+    text-align: center;
+    font-size: 65%;
+    
+}
+
+div#form {
+    /*border: 2px solid green;*/
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+/************************************************/
+/* <a href> definitions */
+a:link {
+    text-decoration: none;
+    color:rgb(42, 46, 46)
+}
+
+a:visited {
+    color: rgb(42, 46, 46);
+}
+
+a:hover {
+    font-size: 33px;
+    color: rgba(240, 255, 255, 0.733);
+}
+
+/************************************************/
+/* class definitions*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tab { 
+    margin-left: 1%;
+ }
